@@ -1,0 +1,120 @@
+.header {
+  // .header__section
+  background: #00000099;
+  padding: 17px 0 13px 0;
+
+  &__section {
+    height: 823px;
+    background: linear-gradient(91.15deg, rgba(0, 0, 0, 0.7) 25.072%, rgba(0, 0, 0, 0) 99.37%),
+      url("./../../img/header-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  // .header__row
+
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  // .header__nav
+
+  &__nav {
+    display: flex;
+    gap: 6.6vw;
+    align-items: center;
+  }
+
+  // .header__list
+
+  &__list {
+    display: flex;
+    gap: 3.4vw;
+    align-items: center;
+  }
+
+  // .header__link
+
+  &__link {
+    color: #fff;
+    font-size: 14px;
+    line-height: 27px;
+    transition: all 0.3s ease 0s;
+    &:hover {
+      font-size: 18px;
+      letter-spacing: 2%;
+    }
+  }
+
+  // .header__btn
+
+  &__btn {
+    padding: 10px 24px;
+  }
+  &__inner {
+    max-width: 60vw;
+    height: 729px;
+    backdrop-filter: blur(3px);
+  }
+  // .header__content
+
+  // &__content {
+  // }
+
+  // .header__inner
+
+  &__inner {
+    padding-top: 100px;
+    button {
+      margin-top: 70px;
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 0.02em;
+      padding: 21px 19px 21px 26px;
+      margin-left: 50px;
+    }
+  }
+
+  // .header__inner-text
+
+  &__inner-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: var(--font-accent);
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    padding-left: 50px;
+    margin-top: -70px;
+    p {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      &::before {
+        content: "";
+        display: block;
+        background-image: url("./../img/icons/star.svg");
+        width: 26px;
+        height: 26px;
+      }
+    }
+  }
+}
+.btn {
+  background: linear-gradient(90deg, #f2be8c 0%, #c5874e 100%);
+  color: #000;
+  text-transform: uppercase;
+  font-family: var(--font-accent);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0 100%);
+  transition: all 0.3s ease 0s;
+  &:hover {
+    background: linear-gradient(90deg, #ffdcac 0%, #fcb69f 100%);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  }
+}

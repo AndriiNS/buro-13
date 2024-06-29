@@ -1,0 +1,38 @@
+.about {
+  // .about__content
+  margin-bottom: 120px;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  // .about__text
+
+  &__text {
+    max-width: 634px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 28px;
+    }
+  }
+
+  // .about__title
+
+  //   &__title {
+  //   }
+
+  // .about__btn
+
+  &__btn {
+    max-width: fit-content;
+  }
+
+  // .about__img
+
+  //   &__img {
+  //   }
+}

@@ -1,0 +1,40 @@
+.spesial {
+  // .spesial__content
+  margin-bottom: 120px;
+  &__content {
+    background: url("./../../img/special1.png") left center no-repeat,
+      url("./../../img/special2.png") right center no-repeat;
+    height: 593px;
+  }
+  &__content-inner {
+    background: #28292dcc;
+    max-width: 721px;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    padding: 71px 49px 54px;
+    border-radius: 8px 0 0 0px;
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+    }
+  }
+
+  // .spesial__title
+
+  &__title {
+    max-width: 600px;
+    margin-bottom: 24px;
+  }
+}
+
+.special {
+  // .special__subtitle
+
+  &__subtitle {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-top: 10px;
+  }
+}

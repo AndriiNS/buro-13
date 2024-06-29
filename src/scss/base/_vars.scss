@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "GRATIS";
+  src: url("./../../fonts/GRATIS/gratisrusbydaymarius.ttf");
+}
+:root {
+  --container-width: 1310px;
+  --container-padding: 15px;
+
+  --font-main: "Poppins", sans-serif;
+  --font-accent: "GRATIS";
+
+  --page-bg: #393a3f;
+  --text-color: #fff;
+  --accent: linear-gradient(90.29deg, #c1bebe 16.97%, #f0bb89 100%);
+
+  --laptop-size: 1199px;
+  --tablet-size: 959px;
+  --mobile-size: 599px;
+}
+
+.dark {
+  --page-bg: #252526;
+  --text-color: #fff;
+}

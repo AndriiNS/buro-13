@@ -1,0 +1,30 @@
+.people {
+  background: url("./../img/people.png") no-repeat left center,
+    url("./../img/people-secondPart.png") no-repeat right center;
+  height: 823px;
+  max-width: 1280px;
+  margin: 120px auto;
+  // .people__content
+
+  &__content {
+    height: 823px;
+    width: 657px;
+    background: #28292d99;
+    backdrop-filter: blur(12px);
+    padding: 80px 64px 45px;
+    align-self: self-end;
+    border-radius: 8px;
+    button {
+      padding: 15px 54px;
+      margin-top: 50px;
+    }
+  }
+  &__title {
+    margin-bottom: 24px;
+  }
+}
+.people .container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0;
+}

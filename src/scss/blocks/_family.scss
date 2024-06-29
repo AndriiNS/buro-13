@@ -1,0 +1,70 @@
+.family {
+  // .family__content
+  margin-bottom: 80px;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+  }
+
+  // .family__info
+
+  //   &__info {
+  //   }
+
+  // .family__title
+
+  &__title {
+    margin-bottom: 24px;
+  }
+
+  // .family__contact-text
+
+  &__contact-text {
+    max-width: 540px;
+    margin-bottom: 50px;
+    h3 {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 28px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+
+  // .family__preferenses
+
+  //   &__preferenses {
+  //   }
+
+  // .family__title-grad
+
+  &__title-grad {
+    margin-bottom: 16px;
+  }
+
+  // .family__img
+
+  &__img {
+    img {
+      min-width: 593px;
+      height: 593px;
+    }
+  }
+}
+
+.grad-title {
+  background: linear-gradient(140.31deg, rgb(193, 190, 190), rgb(240, 187, 137) 40%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: var(--font-accent);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 115%;
+  letter-spacing: 2%;
+  text-align: left;
+}

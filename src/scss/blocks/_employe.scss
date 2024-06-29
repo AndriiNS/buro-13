@@ -1,0 +1,42 @@
+.employ {
+  // .employ__content
+  margin-bottom: 120px;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  // .employ__img
+
+  &__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  // .employ__info
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  &__subtitle {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  // .employ__grad-title
+
+  //   &__grad-title {
+  //   }
+
+  // .employ__btn
+
+  &__btn {
+    margin-top: 32px;
+    padding: 15px 45px;
+    max-width: fit-content;
+  }
+}

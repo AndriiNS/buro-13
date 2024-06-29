@@ -1,0 +1,110 @@
+.contacts {
+  // .contacts__content
+  margin-bottom: 80px;
+
+  &__content {
+    background-image: url("./../img/ukraine.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+  }
+
+  // .contacts__info
+
+  &__info {
+    position: relative;
+    max-width: 50%;
+    backdrop-filter: blur(5px);
+    padding: 74px 52px 60px;
+    background-image: url("./../img/contacts.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+  }
+
+  &__info::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(21, 21, 22, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: -1;
+    border-radius: 8px;
+  }
+
+  // .contacts__title
+
+  //   &__title {
+  //   }
+
+  // .contacts__box
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  // .contacts__tel-box
+
+  &__tel-box {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+  }
+
+  // .contacts__tel
+  &__gmail,
+  &__time,
+  &__location,
+  &__tel {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    a {
+      color: #fff;
+      transition: all 0.3s ease 0s;
+      &:hover {
+        color: #aa8383;
+      }
+    }
+  }
+
+  // .contacts__tel-more
+
+  &__tel-more {
+    display: flex;
+    gap: 12px;
+    img {
+      transition: all 0.3s ease 0s;
+      &:hover {
+        scale: 1.2;
+      }
+    }
+  }
+
+  // .contacts__gmail
+
+  // .contacts__time
+
+  // .contacts__location
+}
+.btn {
+  // .btn__contacts
+
+  &__contacts {
+    max-width: 320px;
+    margin-top: 34px;
+  }
+}
