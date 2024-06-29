@@ -2,8 +2,8 @@
   // .spesial__content
   margin-bottom: 120px;
   &__content {
-    background: url("./../../img/special1.png") left center no-repeat,
-      url("./../../img/special2.png") right center no-repeat;
+    background: url("./../img/special1.png") left center no-repeat,
+      url("./../img/special2.png") right center no-repeat;
     height: 593px;
   }
   &__content-inner {
